@@ -1,0 +1,16 @@
+.tree-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 45em;
+  list-style: none;
+}
+
+.tree-list > :not(:first-child)::before {
+  content: "";
+  display: block;
+  height: 1px;
+  margin: 0 0.5em 0 0;
+  background-color: var(--main-border);
+}

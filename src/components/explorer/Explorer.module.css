@@ -1,0 +1,7 @@
+.AddressBar-container {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  height: 3em;
+  margin: 0;
+}

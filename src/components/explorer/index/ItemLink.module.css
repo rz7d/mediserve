@@ -1,0 +1,38 @@
+.file-container {
+  height: 3.5em;
+  width: 100%;
+}
+
+.file {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+}
+
+.file:hover {
+  background-color: rgba(180, 180, 180, 0.25);
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.file > :not(:first-child) {
+  margin-left: 0.75em;
+}
+
+.file-icon {
+  min-width: 1em;
+  width: 1em;
+  text-align: center;
+}
+
+.file-name {
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.file-size {
+  white-space: nowrap;
+}
